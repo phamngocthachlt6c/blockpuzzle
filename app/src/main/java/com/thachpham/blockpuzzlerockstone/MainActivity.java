@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
         // For Banner
         AdRequest adRequest = new AdRequest.Builder().build();
-        binding.bannerAds.loadAd(adRequest);
+//        binding.bannerAds.loadAd(adRequest);
 
         // For video ads
         mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this);
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void hideAds() {
-        binding.bannerAds.setVisibility(View.GONE);
+//        binding.bannerAds.setVisibility(View.GONE);
     }
 
     private boolean isShowFullAds() {
@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showBannerAds() {
         //show every time go to screen game over, except show video ads
-        binding.bannerAds.setVisibility(View.VISIBLE);
+//        binding.bannerAds.setVisibility(View.VISIBLE);
         numberOfBannerAdsShowed++;
         bannerNumberShowBeforeReload++;
 //        if (bannerNumberShowBeforeReload >= BANNER_ADS_RELOAD_AFTER) {
@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
     public void loadAdsWhenInternetConnected() {
         MobileAds.initialize(this, getString(R.string.admob_app_id));
         AdRequest adRequest = new AdRequest.Builder().build();
-        binding.bannerAds.loadAd(adRequest);
+//        binding.bannerAds.loadAd(adRequest);
         // For video ads
         mRewardedVideoAd.loadAd(getString(R.string.video_load_ad_unit_id), new AdRequest.Builder().build());
 
