@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Block Puzzle - Rock Stone</string>
+    <string name="admob_app_id">ca-app-pub-1745214908046998~1898087295</string>
+    <string name="video_load_ad_unit_id">ca-app-pub-1745214908046998/6767679710</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1745214908046998/7306326648</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-1745214908046998/1491302301</string>
+
+    <!--app sample id-->
+    <!--<string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--<string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--<string name="video_load_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>-->
+</resources>
